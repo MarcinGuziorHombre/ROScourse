@@ -1,0 +1,2 @@
+myrobot
+-DCATKIN_DEVEL_PREFIX=/home/marcin/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/marcin/catkin_ws/install -G Unix Makefiles

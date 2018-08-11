@@ -1,0 +1,12 @@
+#include <ros/ros.h>
+#include <std_srvs/SetBool.h>
+
+
+
+	int main(int argc, char **argv){
+
+		ros::init(argc, argv, "/get_the_number_server");
+		ros::NodeHandle nh;
+		ros::ServiceServer server=nh.advertise.Service("/get_the_number", 			get_the_number);
+		ros::spin();
+}

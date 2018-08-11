@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/nold_pabliszer.dir/src/nold_pabliszer.cpp.o  -o /home/marcin/catkin_ws/devel/lib/myrobot/nold_pabliszer -rdynamic 
