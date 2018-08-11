@@ -161,6 +161,9 @@ target_link_libraries(add_two_ints_client ${catkin_LIBRARIES})
 add_executable(maj_nold src/nold)
 target_link_libraries(maj_nold ${catkin_LIBRARIES})
 
+add_executable(licznik src/licznik.cpp)
+target_link_libraries(licznik ${catkin_LIBRARIES})
+
 add_executable(pabliszer src/pabliszer.cpp)
 target_link_libraries(pabliszer ${catkin_LIBRARIES})
 
